@@ -45,7 +45,7 @@ body {
 ------------------ */
 .match-container {
     display: flex;
-
+    column-gap: 30px;
 }
 
 .match-update {
@@ -94,6 +94,9 @@ body {
     margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
+    row-gap: 30px;
+    column-gap: 30px;
 }
 
 .matchs .match img {
@@ -103,7 +106,7 @@ body {
 
 .matchs {
     background: #E8E8E8;
-    margin: 30px;
+
     border-radius: 7px;
 }
 
@@ -121,4 +124,21 @@ body {
 
 .icon {
     display: inline-flex;
+}
+
+/* ----------------
+Bottom Container
+----------------- */
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav ul {
+    display: flex;
+}
+
+.ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 0px 10px;
 }
