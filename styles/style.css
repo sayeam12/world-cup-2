@@ -1,0 +1,124 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----- Top Banner Style ------ */
+.top-banner {
+    width: 1321px;
+    height: 646px;
+    display: flex;
+    background: #161616;
+    border-radius: 30px;
+    margin-left: 140px;
+}
+
+.section-title {
+    width: 50%;
+    color: white;
+    margin-top: 246px;
+    margin-left: 180px;
+}
+
+.title {
+    font-size: 45px;
+}
+
+.section-img {
+    width: 50%;
+    margin-top: 140px;
+}
+
+.section-img img {
+    width: 84%;
+}
+
+.live-button {
+    text-decoration: none;
+    background-color: rgb(255, 60, 11);
+    border-radius: 4px;
+    color: white;
+    padding: 10px 30px;
+}
+
+/*------------------
+ Match Button Stylesheet
+------------------ */
+.match-container {
+    display: flex;
+
+}
+
+.match-update {
+    margin-top: 100px;
+    width: 312px;
+    height: 312px;
+    margin-left: 140px;
+    background-color: #161616;
+    border-radius: 10px;
+}
+
+.match-detail {
+    width: 253px;
+    height: 239px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.match-button {
+    text-decoration: none;
+    background-color: aliceblue;
+
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: black;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.blog-button {
+
+    text-decoration: none;
+    background-color: rgb(255, 60, 11);
+    border-radius: 4px;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+/*--------------------
+ Match List Stylesheet
+-------------------- */
+.match-list {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.matchs .match img {
+    width: 312px;
+    height: 175px;
+}
+
+.matchs {
+    background: #E8E8E8;
+    margin: 30px;
+    border-radius: 7px;
+}
+
+.match-info {
+    padding: 10px;
+}
+
+.transfer-button {
+    text-decoration: none;
+    border-radius: 4px;
+    color: black;
+    border: 1px solid black;
+    padding: 8px 35px;
+}
+
+.icon {
+    display: inline-flex;
+}
